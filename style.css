@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to right, rgba(6, 105, 109, 0.6), rgb(0, 87, 87, 0.7)), url(images/top-section-background.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-section h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.top-section {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#firstName,
+#lastName,
+#memberAge,
+#memberLevel,
+#favClub {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+label {
+    font-size: 16px;
+}
+
+input[value] { color: white;}
+
+input[value]:hover { color: rgba(255, 255, 255, 0.75);
+}
+
+
+th {
+    text-align: center;
+    font-weight: bold;
+}
+
+td { text-align: center;}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 70%;
+    color: #ffffff;
+}
+
+.success, .error {
+    color: white;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 5px;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}

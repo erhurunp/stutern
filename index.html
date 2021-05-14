@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.png"image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Club</title>
+</head>
+<body>
+    <div class="container">
+        <section class="top-section">
+            <h1>Join our Movie Club</h1>
+            <form id="member-form">
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" class="u-full-width">
+                </div>
+                <div>
+                    <label for="lastName">Surname</label>
+                    <input type="text" id="lastName" class="u-full-width">
+                </div>
+                <div>
+                    <label for="memberAge">Age</label>
+                    <input type="text" id="memberAge" class="u-full-width">
+                </div>
+                <div>
+                    <label for="memberLevel">Current Level</label>
+                    <input type="text" id="memberLevel" class="u-full-width">
+                </div>
+                <div>
+                    <label for="favClub">Favourite Club</label>
+                    <input type="text" id="favClub" class="u-full-width">
+                </div>
+                <div>
+                    <input type="submit" value="Submit" class="u-full-width">
+                </div>
+            </form>
+        </section>
+    
+        <section class="bottom-section">
+            <table class="ul-full-width">
+                <thead>
+                    <tr>
+                        <th>User Id</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Current Level</th>
+                        <th>Favourite Club</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="member-list"></tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
