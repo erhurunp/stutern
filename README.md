@@ -1,2 +1,2 @@
 # stutern
-All milestone pojects
+All milestone projects
